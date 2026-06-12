@@ -1,3 +1,3 @@
-const imageBaseUrl = "http://localhost:3000";
+const imageBaseUrl = "https://school-db-0sqk.onrender.com/images/";
 
 export default imageBaseUrl;
