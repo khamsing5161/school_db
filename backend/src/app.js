@@ -1,8 +1,10 @@
 const express  = require('express');
 const cors     = require('cors');
-const app      = express();
 app.use(cors({
-  origin: 'http://localhost:5173'   // ← ชี้ตรงไปที่ React
+  origin: [
+    "http://localhost:5173",
+    "https://singkham.netlify.app/"
+  ]
 }));
 
 app.use(express.json()); // รับ JSON จาก request body
